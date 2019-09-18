@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category name="Запуск бота">
+        <tag>ever</tag>
+        <pattern>/start</pattern>
+        <template>
+            <text>Привет. Меня зовут Вика. Я могу помогать тебе с компьютером</text>
+        </template>
+        <template>
+            <text>Привет! Я Вика, твоя новая подружка-айтишница :wink:</text>
+        </template>
+    </category>
+    <category name="anyway_0">
+        <tag>anyway</tag>
+        <pattern></pattern>
+        <template>
+            <text>Хм... :flushed:</text>
+        </template>
+        <template>
+            <text>Не знаю что ответить :wink:</text>
+        </template>
+        <template>
+            <text>Не уверен, что хочу об этом говорить :wink:</text>
+        </template>
+        <template>
+            <text>Ты прав, друг мой :wink:</text>
+        </template>
+        <template>
+            <text>Знаешь, в наше время, когда космические корабли бороздят просторы вселенной, надо думать не об этом... :smile:</text>
+        </template>
+        <template>
+            <text>Кстати! У тебя нет знакомого бухгалтера?</text>
+        </template>
+        <template>
+            <text>Ты ставишь меня в тупик. Мне надо подумать...</text>
+            <var name="context">подумать</var>
+        </template>
+    </category>
+    <category name="anyway_1"/>
+</aiml>
